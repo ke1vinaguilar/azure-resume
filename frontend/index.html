@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Kelvin's Resume</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+   <script src="js/modernizr.js"></script>
+   <script src="main.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+
+</head>
+
+<body>
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">Hi, I'm Kelvin</h1>
+            
+            <p>and this page has been viewed <a id="counter"></a> times </p> 
+            <ul class="social">
+               <li><a href="https://linkedin.com/in/kelvinaguilar"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://github.com/ke1vinaguilar"><i class="fa fa-github"></i></a></li>
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/me.png" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>ABOUT ME</h2>
+
+            <p> Hi, I'm Kelvin Aguilar, <span>Network Technician at <a href="https://marriott.com">Marriott Gaylord National Resort & Convention Center</a></span>
+               
+         </br>
+      </br>
+       I built this page as part of the <span><a href="https://github.com/madebygps/cgc-azure-resume">Cloud Guru Azure Resume Challenge.</a></span>
+            
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Certifications</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>CompTIA Security+ ce</h3>
+                  <p class="info"><em class="date">February 2022</em></p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+ <!-- Projects
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Projects</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Live Cyber Attacks with Azure Sentinel</h3>
+
+                  <p>
+                  <li>Used custom PowerShell script to extract metadata from Windows Event Viewer to be forwarded to third party API in order to derive geolocation datat</li> 
+                  <li>Configured Log Analytics Workspace in Azure to ingest custom logs containing geographic information (latitude, longitude, state/province, and country)</li>
+                  <li>Configured Custom Fields in Log Analytics Workspace with the intent of mapping geo data in Azure Sentinel</li>
+                  <li>Configured Azure Sentinel ( Microsoft's cloud SIEM) workbook to display global attack data (RDP brute force) on world map according to physical location and magnitude of attacks</li>
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Vulnerability Management Lab with Nessus</h3>
+
+                  <p>
+                     <li>Installed and configured Nessus Essentials to perform credentialed vulnerability scans against Windows 10 Hosts</li>
+                     <li>Implemented Vulnerability Management Function on sabdbox networks: (Discover, Prioritize, Assess, Report, Remediate, Verify)</li>
+                     <li>Conducted vulnerability assessments with Nessus; remediated vulnerabilities</li>
+                     <li>Develpoed automated remediation process to preemptively deal with vulnerabilities stemming from Windows updates andd third-party software</li>
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Cloud Detection Lab with Azure</h3>
+
+                  <p>
+                  <li>Configured and deployed Azure Resources including Azure Sentinel to detect attacker persistence on a virtual machine</li>
+                  <li>Created a custom analytics rule to generate security alerts for virtual machine activity</li>
+                  <li>Utilized KQL for log querying and MITRE Advesary TTP's and Mitigation Procedures</li>
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Projects -->
+
+
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Experience</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Marriott Gaylord National Resort & Convention Center</h3>
+                  <p class="info">Network Technician <span>&bull;</span> <em class="date">June 2022 - Present</em></p>
+
+                  <p>
+                  <li>Consult with clients daily to specify network and system requirements and design solutions</li> 
+                  <li>Deploy, configure, reimage, troubleshoot, and maintain workstations and other types of equipment (desktops,mobile devices. kiosks, and Point of Sale stations)</li>
+                  <li>Utilize IT ticketing system, ServiceNow for effective workload management and to track issues from beginning to end for hotel staff and equipment</li>
+                  <li>Implement system processes to address application issues to reduce business impact and increase IT system up-time and performance</li>
+                  <li>Fully document all system's proccesses and procedures</li>
+                  <li>Proactively monitor and ensure all devices are compliant within the company's policies and standards (Maark2)</li>
+                  <li>Monitor and configure wired and wireless network and bandwidth utilization (Allot NetXplorer, Aruba Controller, Aruba ClearPass, SolardWinds)</li>
+                  <li>Maintain, configure, secure, and update networking equipment (CISCO and Aruba)</li>
+                  <li>Utilize Active Directory by adding, removing, and modifying Users, Groups, Computers, and Printers</li>
+                  <li>Use VMWare to maintain and troubleshoot multiple servers in the hotel</li>
+                  <li>Schedule and execute security patches and updates for servers, workstations, and devices</li>
+                  <li>Deploy marketing content for clients on digital signs using Fourwinds interactive software</li>
+                  <li>Train new hire technicians to ensure they have appropriate levels of access to the system</li>
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Grupo de Seguros El Corte Ingles</h3>
+                  <p class="info">Data Entry Intern <span>&bull;</span> <em class="date">June 2018 - August 2018</em></p>
+
+                  <p>
+                     <li>Monitored and scanned website for advertisement placements in a time sensitive manner</li>
+                     <li>Maintained correspondence with the client, ensuring excellent customer service</li>
+                     <li>Prepared reports for Executive members to verify proper ad placements</li>
+                     <li>Troubleshot misplaced ads and monitored for malware</li>
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Virginia Museum of History & Culture</h3>
+                  <p class="info">Consultant Intern <span>&bull;</span> <em class="date">May 2018 - June 2018</em></p>
+
+                  <p>
+                  <li>Conducted market analytical research to identify potential patrons</li>
+                  <li>Performed lead acquisitions via phone and email to interested parties</li>
+                  <li>Scheduled and attended client meetings and team conference calls</li>
+                  <li>Constructed a rich network by building relationships with various professionals through mentorship engagement</li>
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Virginia Commonwealth University (VCU)</h3>
+                  <p class="info">Bachelors of Science in Information Systems <span>&bull;</span> <em class="date">Graduated: May 2019</em></p>
+
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a href="https://linkedin.com/in/kelvinaguilar"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://github.com/ke1vinaguilar"><i class="fa fa-github"></i></a></li>
+            </ul>
+
+            <ul class="copyright">
+               <a href="https://www.styleshout.com/free-templates/ceevee/"> Template by CeeVee </a>
+                
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
+</body>
+
+</html>
