@@ -7,7 +7,6 @@ on:
         paths:
         -'frontend/**'
     
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -20,13 +19,11 @@ jobs:
     - name: Upload to blob storage
       uses: azure/CLI@v1
       with:
-        azcliversion: 2.0.72
         inlinescript: |
-            az storage blob upload-batch --account-name "azureresumeka" -d '$web' -s frontend/
+            az storage blob upload-batch --account-name azureresumeka --auth-mode key -d '$web' -s frontend/ --overwrite
     - name: Purge CDN endpoint
       uses: azure/CLI@v1
       with:
-        azcliversion: 2.0.72
         inlinescript: |
             az cdn endpoint purge --content-paths "/*" --profile-name "azureresumeke1vin" --name "azureresumeke1vin" --resourcegroup "azureresume"
 
@@ -34,4 +31,4 @@ jobs:
     - name: logout
       run: |
             az logout
-    
+      if: always()
