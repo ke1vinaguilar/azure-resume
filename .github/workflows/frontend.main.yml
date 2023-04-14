@@ -25,7 +25,7 @@ jobs:
       uses: azure/CLI@v1
       with:
         inlinescript: |
-            az cdn endpoint purge --content-paths "/*" --profile-name "azureresumeke1vin" --name "azureresumeke1vin" --resourcegroup "azureresume"
+            az cdn endpoint purge --content-paths "/*" --profile-name "azureresumeke1vin" --name "azureresumeke1vin" --resource-group "azureresume"
 
   # Azure logout
     - name: logout
