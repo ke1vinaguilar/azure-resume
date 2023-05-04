@@ -1,52 +1,23 @@
-<h1>Cloud Resume Chaallenge</h1>
+<h1>Cloud Resume Challenge</h1>
 
  ### [Link to Resume](https://www.kelvinaguilar.me/)
 
 <h2>Description</h2>
-In this lab we're going to walk through how to create am Active Directory home lab Environment using Oracle Virtual Box. Configuring and running this lab will definitely help develop your understanding of how active directory and windows networking works, so I'd highly recommnend running through it a couple times, ask questions where stuff is unclear, and eventually try to build it on your own without watching. Please let me know if you have any questions!
+In this lab I will be building my own resume integrated into GitHub and hosted on Microsoft Azure with Blob Storage, Azure Functions and CosmosDB. I'll be creating my own webpage with HTML and CSS, developing a CI/CD workflow with GitHub, and finally, deploying a static web app with a serverless database. 
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
+<h2>Languages Used</h2>
 
-- <b>PowerShell</b> 
-- <b>Oracle Virtual Box</b>
+- <b>C#</b> 
+- <b>JavaScript</b>
+- <b>HTML</b>
+- <b>CSS</b>
 
-<h2>Environments Used </h2>
+<h2>Utilities Used</h2>
 
-- <b>Windows 10 </b> (21H2)
-- <b>Servers 2019</b>
-
-<h2>Program walk-through:</h2>
-
-<p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+- <b>Microsoft Azure</b> 
+- <b>GitHub</b>
 
 <!--
  ```diff
