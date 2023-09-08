@@ -1,4 +1,4 @@
-<h1>Cloud Resume Challenge</h1>
+<h1>Azure Cloud Resume Challenge</h1>
 
  ### [Link to Resume](https://www.kelvinaguilar.me/)
 
